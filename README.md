@@ -1,2 +1,2 @@
-# AWS ☁️ Cloud
+# AWS ☁️ Cloud Computing
 
