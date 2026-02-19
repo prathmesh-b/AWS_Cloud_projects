@@ -1,8 +1,8 @@
-# Ignore the output reports
+# Ignore the output reports 
 resourceTracker.txt
 aws_usage_*.txt
 
-# Ignore any potential AWS config syncs
+# Ignore any potential AWS config syncs for security reason
 .aws/
 .elasticbeanstalk/
 
