@@ -1,0 +1,25 @@
+---
+- name: Install and Customize Nginx
+  hosts: all     #target machiens private ip taken from inventory
+  become: yes
+
+  tasks:
+    - name: Update apt cache and install nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Start and Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Deploy my custom index page
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+        owner: www-data
+        group: www-data
+        mode: '0644'
