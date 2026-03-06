@@ -1,0 +1,15 @@
+# Local terraform directory (contains providers and plugins)
+.terraform/
+
+# State files 
+*.tfstate.*
+
+# Variables files 
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# Sensitive environment variables
+.env
