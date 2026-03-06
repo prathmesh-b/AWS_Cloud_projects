@@ -1,0 +1,11 @@
+# Ignore the output reports 
+resourceTracker.txt
+aws_usage_*.txt
+
+# Ignore any potential AWS config syncs for security reason
+.aws/
+.elasticbeanstalk/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
