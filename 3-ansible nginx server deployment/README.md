@@ -19,10 +19,7 @@ Before running this playbook, ensure you have:
 ## 🚀 Setup & Deployment
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/ansible-nginx-server-deployment.git](https://github.com/YOUR_USERNAME/ansible-nginx-server-deployment.git)
-
-```
+After clone follow next step
 cd ansible-nginx-server-deployment
 
 ### 2. Configure Inventory
